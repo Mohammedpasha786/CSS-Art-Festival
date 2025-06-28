@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu CSS Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pikachu">
+            <!-- Ears -->
+            <div class="ear ear-left">
+                <div class="ear-tip"></div>
+            </div>
+            <div class="ear ear-right">
+                <div class="ear-tip"></div>
+            </div>
+            
+            <!-- Head -->
+            <div class="head">
+                <!-- Eyes -->
+                <div class="eye eye-left">
+                    <div class="pupil"></div>
+                    <div class="eye-shine"></div>
+                </div>
+                <div class="eye eye-right">
+                    <div class="pupil"></div>
+                    <div class="eye-shine"></div>
+                </div>
+                
+                <!-- Cheeks -->
+                <div class="cheek cheek-left"></div>
+                <div class="cheek cheek-right"></div>
+                
+                <!-- Nose -->
+                <div class="nose"></div>
+                
+                <!-- Mouth -->
+                <div class="mouth">
+                    <div class="mouth-left"></div>
+                    <div class="mouth-right"></div>
+                </div>
+            </div>
+            
+            <!-- Body -->
+            <div class="body">
+                <!-- Arms -->
+                <div class="arm arm-left"></div>
+                <div class="arm arm-right"></div>
+                
+                <!-- Body stripes -->
+                <div class="stripe stripe-1"></div>
+                <div class="stripe stripe-2"></div>
+            </div>
+            
+            <!-- Legs -->
+            <div class="leg leg-left"></div>
+            <div class="leg leg-right"></div>
+            
+            <!-- Tail -->
+            <div class="tail">
+                <div class="tail-segment tail-segment-1"></div>
+                <div class="tail-segment tail-segment-2"></div>
+                <div class="tail-segment tail-segment-3"></div>
+                <div class="tail-tip"></div>
+            </div>
+        </div>
+        
+        <!-- Sparkles around Pikachu -->
+        <div class="sparkle sparkle-1">✨</div>
+        <div class="sparkle sparkle-2">⚡</div>
+        <div class="sparkle sparkle-3">✨</div>
+        <div class="sparkle sparkle-4">⚡</div>
+        
+        <!-- Title -->
+        <h1 class="title">Pikachu</h1>
+        <p class="subtitle">Pure CSS Art - No Images!</p>
+    </div>
+</body>
+</html>
